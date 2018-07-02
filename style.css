@@ -93,3 +93,20 @@ opacity: 1;
 	border-bottom: 3px groove #ccddcc;
 	border-right: 3px groove #ccddcc;
 }
+
+.social{
+	position: fixed;
+	right: 0px;
+	top: 300px;
+	z-index: 9999;
+	width: 50px;
+	height: 150px;
+	background-color: #ff0000;
+}
+
+.social i{
+	font-size: 35px;
+	margin-left: 5px;
+	color: #ffffff;
+
+}
