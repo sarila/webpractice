@@ -110,3 +110,31 @@ opacity: 1;
 	color: #ffffff;
 
 }
+
+.bannermenufix{
+	position: fixed;
+	z-index: 9999;
+}
+
+.scrollable{
+	position: relative;
+	top: 205px;
+	z-index: 9998
+}
+
+.menu{
+	background-color: #025963;
+
+}
+
+.menu ul{
+	list-style-type: none;
+	float: right;
+	padding-top: 10px;
+}
+
+.menu ul li{
+	display: inline;
+	color: #ffffff;
+	padding-left: 20px;
+}
