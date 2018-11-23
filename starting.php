@@ -20,7 +20,11 @@ echo date('Y/F/dS h:i:sA');
 
 $name="ram" ;
 echo "<br>\"$name\" goes to school<br>"; //escape sequence(\ and characters)
-echo '"$name" goes to school'; // no escape in single quote
+echo '<br>"$name" goes to school<br>'; // no escape in single quote
+
+$today = "sunday";
+print_r($today);
+
 ?>
 </body>
 </html>
