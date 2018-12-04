@@ -14,3 +14,10 @@ echo "</table>";
 unset($i, $num);
 // echo "$num"; //undefine variable as already destroyed.
 ?>
+<?php 
+$name = "Ram";
+echo 'My name is $name <br>';
+
+echo 'My name is "$name"';
+
+?>

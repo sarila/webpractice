@@ -1,6 +1,4 @@
 <?php 
-$n1 = 20;
-$n2 = 30;
 function add($n1, $n2)
 {
 	$sum = $n1 +$n2;
@@ -53,9 +51,6 @@ if (isset($_POST['result']))
 		}
 	}
 }
-
-
-
 
 ?>
 <!DOCTYPE html>
